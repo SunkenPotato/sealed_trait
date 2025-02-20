@@ -20,7 +20,7 @@
 //! You can also add supertraits to your traits, but they have to be inside square brackets:
 //! ```
 //! sealed_trait! {
-//!     pub sealed trait TestTrait: [Sized] permits i32 {
+//!     pub sealed trait TestTrait: [Sized, Into<i32>] permits i32 {
 //!         ...
 //!     }
 //! }
