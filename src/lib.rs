@@ -17,7 +17,7 @@
 //!     }
 //! }
 //! ```
-//! You can also add supertraits to your traits, but they have to be inside square brackets:
+//! You can also add supertraits to your traits, but they have to be inside square brackets and separated by **commas**, not `+`:
 //! ```
 //! sealed_trait! {
 //!     pub sealed trait TestTrait: [Sized, Into<i32>] permits i32 {
