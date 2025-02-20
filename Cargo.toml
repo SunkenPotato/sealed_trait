@@ -6,7 +6,7 @@ license-file = "LICENSE"
 description = "A utility for making sealed traits more accessible"
 repository = "https://github.com/SunkenPotato/sealed_trait"
 readme = "README.md"
-exclude = ["target/*", ".gitignore", "Cargo.lock"]
+exclude = [".gitignore", "Cargo.lock"]
 
 [dependencies]
 paste = "1.0.15"
