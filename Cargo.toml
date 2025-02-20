@@ -2,6 +2,10 @@
 name = "sealed_trait"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+description = "A utility for making sealed traits more accessible"
+repository = "https://github.com/SunkenPotato/sealed_trait"
+readme = "README.md"
 
 [dependencies]
 paste = "1.0.15"
