@@ -6,7 +6,7 @@
 //! You can create a sealed trait by using the `sealed_trait` macro:
 //! ```
 //! sealed_trait! {
-//!     pub sealed trait TestTrait permits i32 {
+//!     pub sealed trait TestTrait permits i32 => {
 //!         fn print_me(self);
 //!     }
 //!
@@ -20,7 +20,7 @@
 //! You can also add supertraits to your traits, but they have to be inside square brackets and separated by **commas**, not `+`:
 //! ```
 //! sealed_trait! {
-//!     pub sealed trait TestTrait: [Sized, Into<i32>] permits i32 {
+//!     pub sealed trait TestTrait: [Sized, Into<i32>] permits i32 => {
 //!         ...
 //!     }
 //! }
